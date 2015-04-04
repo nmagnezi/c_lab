@@ -29,7 +29,6 @@ return count;
 int main()
 {
  unsigned long decimal_input;
- printf("Enter Decimal Number: ");
  scanf("%lu", &decimal_input);
  printf("%d\n", count_odd_bits(decimal_input));
  return 0;
