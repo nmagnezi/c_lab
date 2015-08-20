@@ -12,6 +12,9 @@ void raise_error(char* err) {
 
 void raise_error_with_param(char *err, char *param) {
     char *err_with_param = malloc(strlen(err)+strlen(param)+1);
+    if (!err_with_param) {
+		raise_error(CannotAllocateMemoryError);
+	}
     strcpy(err_with_param, err);
     strcat(err_with_param, param);
     raise_error(err_with_param);
