@@ -9,5 +9,8 @@
 #define USAGE_FLAG_A "--help"
 #define USAGE_FLAG_B "-h"
 
+#define TRUE 1
+#define FALSE 0
+
 
 #endif

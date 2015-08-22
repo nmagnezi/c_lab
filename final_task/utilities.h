@@ -7,5 +7,6 @@
  */
 void print_usage();
 
+int check_all_true(int *array, int array_size);
 
 #endif
