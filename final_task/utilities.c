@@ -15,14 +15,3 @@ optional arguments:\n\
     fprintf(stderr, "%s", help_msg);
     exit(EXIT_SUCCESS);
 }
-
-int check_all_true(int *array, int array_size) {
-	int i;
-	for (i = 0; i < array_size; ++i) {
-		printf("%d\n", array[i]);
-		if (array[i] != TRUE) {
-			return FALSE;
-		}
-	}
-	return TRUE;
-}

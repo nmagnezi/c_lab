@@ -8,8 +8,9 @@ int assemble_file(char* file_name) {
 	int file_opened = FALSE;
 	file_opened = open_file(file_name);
 	if (!file_opened) {
-		return FALSE;	}
-
+		return FALSE;
+	}
+	
 /* code */
 
 	return TRUE;
